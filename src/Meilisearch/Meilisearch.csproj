@@ -3,14 +3,11 @@
     <PropertyGroup>
         <TargetFramework>netstandard2.0</TargetFramework>
         <OutputType>Library</OutputType>
-        <PackageId>MeiliSearch</PackageId>
-        <Version>0.15.0</Version>
+        <PackageId>Jooooel.MeiliSearch</PackageId>
+        <Version>0.1.0</Version>
         <Description>.NET wrapper for Meilisearch, an open-source search engine</Description>
         <RepositoryUrl>https://github.com/meilisearch/meilisearch-dotnet</RepositoryUrl>
         <PackageTags>meilisearch;dotnet;sdk;search-engine;search;instant-search</PackageTags>
-        <Authors>Meilisearch</Authors>
-        <PackageProjectUrl>https://meilisearch.com</PackageProjectUrl>
-        <PackageIcon>logo.png</PackageIcon>
         <PackageReadmeFile>README.md</PackageReadmeFile>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
 
@@ -21,7 +18,6 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="7.6.0" />
       <PackageReference Include="System.Net.Http.Json" Version="6.0.0" />
     </ItemGroup>
 
