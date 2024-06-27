@@ -1,10 +1,6 @@
 name: Publish NuGet package
 
 on:
-  push:
-    branches:
-      - main
-
   workflow_dispatch:
 
 jobs:
